@@ -1,0 +1,72 @@
+body{
+    background-color: green;
+    min-height: 100%vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    width: 100%vw;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.mainTitle{
+    display: grid;
+}
+logo{
+    display: grid;
+    justify-content: center;
+}
+span{
+    display: grid;
+    justify-content: center;
+}
+
+.container{
+    padding: 10px;
+    width: 80%;
+    height: 40%;
+    display: grid;
+    place-items: center;
+    /* align-items: space-between; */
+    /* gap: 5px; */
+    background-color: grey;
+    grid-template-rows: repeat(6, 1fr);
+    line-height: 20px;
+}
+
+.firstRow{
+    border-radius: 20%;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+}
+
+.secondRow{
+    border-radius: 20%;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+}
+
+.thirdRow{
+    border-radius: 20%;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    
+}
+
+.fourthRow{
+    border-radius: 20%;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+}
+
+.fifthRow{
+    border-radius: 20%;
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+}
+
+.sixthRow{
+    border-radius: 20%;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+}
