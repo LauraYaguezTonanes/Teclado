@@ -1,72 +1,90 @@
 body{
-    background-color: green;
-    min-height: 100%vh;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    width: 100%vw;
-    color: black;
-    display: flex;
-    justify-content: center;
+    background-color: plum;
 }
 
 .mainTitle{
-    display: grid;
+    width: 100%;
+    margin:auto
 }
-logo{
+
+h1{
     display: grid;
     justify-content: center;
+    font-size: 50px;
+    color: blueviolet;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
 }
-span{
-    display: grid;
+h2{
+    display: flex;
     justify-content: center;
+    color: purple;
+    font-size: 40px;
 }
 
 .container{
     padding: 10px;
+    background: gray;
     width: 80%;
-    height: 40%;
+    margin: auto;
     display: grid;
-    place-items: center;
-    /* align-items: space-between; */
-    /* gap: 5px; */
-    background-color: grey;
-    grid-template-rows: repeat(6, 1fr);
-    line-height: 20px;
+    justify-content: center;
+    align-content: center;
+    /* justify-items: stretch;
+    align-items: stretch; */
+    grid-template-rows: repeat (6, 1fr);
+    grid-template-columns: repeat (16, 1fr);
+        /* place-items: center; */
+    /* border-radius: 10px; */
+    /* justify-content: center;
+    align-content: center; */
+    /* column-gap: 5px; */
 }
 
-.firstRow{
-    border-radius: 20%;
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
+a{
+    background-color: hotpink;
+    border-radius: black;
 }
 
-.secondRow{
+/* .firstRow{
     border-radius: 20%;
     display: grid;
-    grid-template-columns: repeat(15, 1fr);
+    justify-content: center;
+    /* grid-template-columns: repeat(16, 1fr); */
+    /* column-gap: 05px;
+    border-radius: 20px; */
 }
 
-.thirdRow{
+/* .secondRow{
+    width: auto;
     border-radius: 20%;
-    display: grid;
-    grid-template-columns: repeat(15, 1fr);
-    
+    display: grid; */
+    /* grid-template-columns: repeat(15, 1fr); */
 }
 
-.fourthRow{
+/* .thirdRow{
     border-radius: 20%;
-    display: grid;
-    grid-template-columns: repeat(14, 1fr);
+    display: grid; */
+    /* grid-template-columns: repeat(15, 1fr); */
 }
+
+/* .fourthRow{
+    border-radius: 20%;
+    display: grid; */
+    /* grid-template-columns: repeat(14, 1fr); */
+    /* justify-self: center; */
+/* }
 
 .fifthRow{
     border-radius: 20%;
     display: grid;
-    grid-template-columns: repeat(13, 1fr);
+    /* grid-template-columns: repeat(13, 1fr); */
+    /* justify-self: center; */
 }
 
-.sixthRow{
+/* .sixthRow{
     border-radius: 20%;
     display: grid;
-    grid-template-columns: repeat(11, 1fr);
-}
+    /* grid-template-columns: repeat(11, 1fr); */
+    /* justify-self: center; 
+} */ 
