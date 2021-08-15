@@ -3,7 +3,7 @@ body{
 }
 
 .mainTitle{
-    width: 100%;
+    /* width: 100%; */
     margin:auto
 }
 
@@ -23,27 +23,31 @@ h2{
 }
 
 .container{
+    font-size: 20px;
     padding: 10px;
     background: gray;
-    width: 80%;
+    box-sizing: content-box;
+    width: 1050px;
+    height: 600px;
     margin: auto;
     display: grid;
-    justify-content: center;
+    justify-content: center;;
     align-content: center;
-    /* justify-items: stretch;
-    align-items: stretch; */
-    grid-template-rows: repeat (6, 1fr);
-    grid-template-columns: repeat (16, 1fr);
-        /* place-items: center; */
-    /* border-radius: 10px; */
-    /* justify-content: center;
-    align-content: center; */
-    /* column-gap: 5px; */
+    row-gap: 30px;
+    /* grid-template-rows: repeat (6, 3fr);
+    grid-template-columns: repeat (16, 3fr); */;
 }
 
 a{
+    border-radius: 15px;
     background-color: hotpink;
-    border-radius: black;
+    box-sizing: border-box;
+    border: solid black 2px;
+    padding: 10px;
+}
+
+.backspace{
+    width: 80px;
 }
 
 /* .firstRow{
